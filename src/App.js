@@ -10,10 +10,13 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Motahare Shokri</small>
+          <small>
+            This project was Coded by Motahare Shokri and is open-sourced on
+            GitHub
+          </small>
         </footer>
       </div>
     </div>
