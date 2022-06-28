@@ -14,8 +14,22 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            This project was Coded by Motahare Shokri and is open-sourced on
-            GitHub
+            This Project was Coded by {""}
+            <a
+              href="https://serene-payne-47c9ff.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Motahare Shokri {""}
+            </a>
+            and is{" "}
+            <a
+              href="https://github.com/motishokri/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open-Sourced On GitHub
+            </a>
           </small>
         </footer>
       </div>
