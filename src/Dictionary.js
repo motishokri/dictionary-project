@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
@@ -55,10 +57,11 @@ export default function Dictionary(props) {
               onChange={handleKeywordChange}
               defaultValue={props.defaultKeyword}
             />
+            <button onClick={search}>
+              <FontAwesomeIcon icon={faMagnifyingGlass} />
+            </button>
           </form>
-          <div className="hint">
-            suggested words: sunset, wine, yoga, plant...
-          </div>
+          <div className="hint">i.e: yoga, plant, ...</div>
         </section>
         <Results results={results} />
         <Photos photos={photos} />

@@ -13,13 +13,27 @@
 }
 
 .Dictionary input {
-  width: 100%;
+  width: 70%;
   border-radius: 6px;
   padding: 6px 10px;
   color: #333;
   border: 1px solid #ddd;
+  text-transform: uppercase;
 }
 
+button {
+  margin-left: 6px;
+  height: 35px;
+  width: 35px;
+  color: #25201c;
+  background-color: #c9c9c9;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button:hover {
+  color: #f9f9f9;
+}
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
